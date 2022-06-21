@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { FeaturedPosts } from '../sections';
-import { PostCard, Categories, PostWidget,Footer,ScrollToTop} from '../components';
+import { PostCard, Categories,Footer,ScrollToTop} from '../components';
+import { PostWidget } from "../components";
 import { getPosts } from '../services';
-import countapi from "countapi-js";
+
 
 import Head from 'next/head';
 export default function Home({ posts }) {
